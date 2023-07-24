@@ -1,0 +1,48 @@
+[dir="rtl"] body,
+[dir="rtl"] p,
+[dir="rtl"] * {
+  text-align: right;
+}
+
+[dir="rtl"] .hero-text h1 {
+  text-align: right;
+}
+
+[dir="rtl"] .about-section h2 {
+  text-align: right;
+}
+
+[dir="rtl"] .about-section .inline-block {
+  float: right;
+}
+
+[dir="rtl"] .about-section .text-column {
+  padding-right: 30px;
+}
+
+[dir="rtl"] .slick-next {
+  right: 0 !important;
+  left: auto !important;
+}
+
+[dir="rtl"] .single-product .rating {
+  justify-content: flex-end;
+}
+
+[dir="rtl"] .single-product .product-body p {
+  margin-left: auto;
+}
+
+[dir="rtl"] .single-project .project-info .play button {
+  flex-direction: row-reverse;
+}
+
+[dir="rtl"] .single-form-item input[type="checkbox"] {
+  float: right;
+  margin-left: 10px;
+}
+
+[dir="rtl"] nav.mobile-nav {
+  right: auto;
+  left: 15px;
+}

@@ -1,0 +1,7 @@
+div#preloader > div {
+  border-color: var(--primary-color);
+}
+
+div#preloader > div > span {
+  background: var(--primary-color);
+}

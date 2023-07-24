@@ -1,0 +1,89 @@
+.contact-flex {
+  display: flex;
+}
+
+.map-area iframe {
+  width: 100%;
+  height: 100%;
+}
+.single-form-item label {
+  text-transform: capitalize;
+  display: block;
+  cursor: pointer;
+  font-weight: 400;
+  line-height: 1;
+  margin-bottom: 10px;
+}
+
+.single-form-item label span {
+  color: red;
+  opacity: 0.7;
+}
+.single-form-item label.font-light {
+  font-weight: 300;
+  line-height: 1.4;
+}
+
+.single-form-item input,
+.single-form-item textarea {
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  padding: 10px 20px;
+  border-radius: 6px;
+  width: 100%;
+  outline: none;
+  border: 1px solid #ccc;
+  font-weight: 300;
+}
+.single-form-item input:focus,
+.single-form-item textarea:focus {
+  outline: 1px solid #2684ff;
+}
+
+.single-form-item .css-b62m3t-container:focus {
+  border-color: red !important;
+}
+
+.single-form-item .css-b62m3t-container {
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+}
+
+.single-form-item .css-hlgwow, /*  this is for production*/
+.single-form-item .css-art2ul-ValueContainer2 {
+  padding: 6px 15px;
+}
+.single-form-item .css-13cymwt-control {
+  box-shadow: none !important;
+}
+
+/*  1st  for production || 2nd one for development */
+/* .purpose .css-1wy0on6,
+.purpose .css-4xgw5l-IndicatorsContainer2 {
+  display: none;
+} */
+
+.single-form-item .css-b62m3t-container input {
+  box-shadow: none;
+}
+
+.form form {
+  display: grid;
+  gap: 30px;
+}
+
+.single-form-item input[type="checkbox"] {
+  width: auto;
+  float: left;
+  margin: 5px 10px 0 0;
+}
+
+@media all and (max-width: 1024px) {
+  .contact-section .row > .grid {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .map-area iframe {
+    height: 400px;
+    margin-top: 30px;
+  }
+}

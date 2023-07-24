@@ -1,0 +1,29 @@
+.header-top-component {
+  background: var(--primary-color);
+}
+
+.header-links {
+  justify-content: flex-end;
+  display: flex;
+  gap: 30px;
+}
+
+.header-links a {
+  font-weight: 300;
+  color: var(--text-white);
+  padding: 5px;
+  font-size: 14px;
+}
+
+/* responsive-styles
+========================== */
+@media all and (max-width: 1024px) {
+  .header-links {
+    gap: 5px;
+    justify-content: center;
+  }
+
+  .header-links a {
+    font-size: 10px;
+  }
+}

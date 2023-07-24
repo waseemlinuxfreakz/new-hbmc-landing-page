@@ -1,0 +1,84 @@
+.single-project {
+  position: relative;
+  transition: 0.3s;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.single-project .project-info {
+  position: absolute;
+  bottom: 0;
+  padding: 30px 20px;
+  color: #fff;
+}
+
+.single-project .project-info .play button {
+  align-items: center;
+  display: flex;
+  gap: 10px;
+  transition: 0.2s;
+  width: 100%;
+}
+
+.single-project .project-info .play button img {
+  width: 35px;
+  margin: 0;
+}
+
+.single-project .project-info .play button span {
+  transition: 0.2s;
+}
+.single-project .project-info .play button:hover span {
+  transform: scale(1.1);
+}
+
+.single-project img {
+  width: 100%;
+  max-height: 500px;
+  transition: 0.3s;
+}
+
+.single-project:hover img {
+  transform: scale(1.1);
+}
+
+.projects-filter button.active {
+  background: #043a7a;
+  color: #fff;
+}
+.projects-filter button {
+  background: #e4e9f2;
+  padding: 7px 25px;
+  border-radius: 30px;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.projects-gallary .project-outer {
+  flex: 0 0 33.33%;
+  max-width: 33.33%;
+}
+
+.projects-gallary {
+  row-gap: 30px;
+}
+
+/* Respinsive styles
+=============================*/
+@media all and (max-width: 1024px) {
+  .projects-gallary .project-outer {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+}
+
+@media all and (max-width: 767px) {
+  .projects-gallary .project-outer {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .projects-filter button {
+    padding: 5px 20px;
+    font-size: 14px;
+  }
+}

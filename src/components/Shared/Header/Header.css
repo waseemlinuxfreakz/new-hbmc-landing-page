@@ -1,0 +1,54 @@
+.header-component {
+  height: 110px;
+}
+
+li.contact-us a {
+  background: var(--primary-color);
+  padding: 8px 30px;
+  border-radius: 6px;
+  color: var(--text-white);
+  border: 2px solid var(--primary-color);
+}
+
+.menu-area a {
+  transition: 0.1s;
+  display: inline-block;
+  font-weight: 400;
+}
+
+.menu-area a:hover,
+.menu-area button:hover {
+  color: var(--primary-color);
+}
+
+.menu-area li.contact-us a:hover {
+  background: transparent;
+}
+
+.select-language img,
+.language-toggle img {
+  width: 20px;
+  aspect-ratio: 1;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.header-fixed {
+  position: fixed;
+  animation: myfirst 0.3s;
+}
+
+@keyframes myfirst {
+  0% {
+    top: -100px;
+  }
+
+  100% {
+    top: 0px;
+  }
+}
+
+/* Responsive styles 
+================================*/
+@media all and (max-width: 1100px) {
+}

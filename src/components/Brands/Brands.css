@@ -1,0 +1,37 @@
+.brands-logo .logos {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 70px;
+  row-gap: 50px;
+  justify-content: center;
+}
+
+.brands-logo .logos img {
+  max-width: 150px;
+  width: auto;
+}
+
+.slick-slider {
+  width: 100%;
+}
+.slick-slider img {
+  margin: 0 auto;
+}
+
+.slick-track {
+  display: flex !important;
+  align-items: center;
+}
+
+/* Responsive styles
+========================== */
+@media all and (max-width: 767px) {
+  .brands-logo .logos {
+    gap: 30px;
+    row-gap: 50px;
+  }
+  .brands-logo .logos img {
+    max-width: 80%;
+  }
+}

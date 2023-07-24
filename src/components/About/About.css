@@ -1,0 +1,22 @@
+.about-section .custom-flex {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: row-reverse;
+}
+
+.about-section .custom-flex > div {
+  flex: 0 0 50%;
+  max-width: 50%;
+}
+
+@media all and (max-width: 1024px) {
+  .about-section .custom-flex {
+    flex-direction: auto;
+  }
+
+  .about-section .custom-flex > div {
+    flex: 0 0 100% !important;
+    max-width: 100%;
+  }
+}

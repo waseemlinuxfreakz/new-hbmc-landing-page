@@ -1,0 +1,6 @@
+.site-title {
+  text-align: center;
+}
+.site-title span {
+  color: var(--primary-color);
+}
